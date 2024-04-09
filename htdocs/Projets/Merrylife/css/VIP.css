@@ -1,0 +1,125 @@
+/*--------------Les paramertre par defaut---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,600;1,700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --text-color: rgb(255, 255, 255);
+    --bg-color: rgb(0, 0, 0);
+    --icon-color: rgb(255, 255, 255);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background: var(--bg-color);
+}
+
+.Groupes-l-i {
+    max-width: 1500px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: auto;
+    height: auto;
+    position: relative;
+    background-color: #ffffff;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+.box-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+/*
+                    -------------------------------------------------------------
+                    ------------------------ L S P D ----------------------------
+                    -------------------------------------------------------------
+
+*/
+
+#Diamond{
+    border: 5px solid white;
+    box-shadow: 
+  rgb(13, 33, 65) 0px 50px 60px -12px inset, /* Ombre principale en haut */
+  rgb(13, 33, 65) 0px 18px 36px -18px inset, /* Ombre secondaire en haut */
+  rgba(13, 33, 65, 0.393) 0px -70px 50px 0px inset, /* Ombre sur le côté gauche */
+  rgba(13, 33, 65, 0.633) 0px -36px 30px 5px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(13, 33, 65, 0.39) 0px -79px 30px 0px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(13, 33, 65, 0.06) 0px 2px 1px, /* Légère ombre en bas et à droite */
+  rgba(13, 33, 65, 0.09) 0px 4px 2px, /* Ombre légère en bas et à droite */
+  rgba(13, 33, 65, 0.09) 0px 8px 4px, /* Ombre moyenne en bas et à droite */
+  rgba(13, 33, 65, 0.09) 0px 16px 8px, /* Ombre plus prononcée en bas et à droite */
+  rgba(13, 33, 65, 0.09) 0px 32px 16px; /* Ombre la plus prononcée en bas et à droite */
+
+}
+
+
+.titre-LSPD{
+    text-align: center;
+    margin: auto;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+
+/*
+                    -------------------------------------------------------------
+                    ------------------------ B C S O ----------------------------
+                    -------------------------------------------------------------
+
+*/
+
+
+.titre-BCSO {
+    text-align: center;
+    margin: auto;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+
+
+#GOLD {
+    border: 5px solid white;
+    box-shadow: 
+  rgb(251, 237, 190) 0px 50px 60px -12px inset, /* Ombre principale en haut */
+  rgb(251, 237, 190) 0px 18px 36px -18px inset, /* Ombre secondaire en haut */
+  rgba(251, 237, 190, 0.393) 0px -70px 50px 0px inset, /* Ombre sur le côté gauche */
+  rgba(251, 237, 190, 0.633) 0px -36px 30px 5px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(251, 237, 190, 0.39) 0px -79px 30px 0px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(251, 237, 190, 0.06) 0px 2px 1px, /* Légère ombre en bas et à droite */
+  rgba(251, 237, 190, 0.09) 0px 4px 2px, /* Ombre légère en bas et à droite */
+  rgba(251, 237, 190, 0.09) 0px 8px 4px, /* Ombre moyenne en bas et à droite */
+  rgba(251, 237, 190, 0.09) 0px 16px 8px, /* Ombre plus prononcée en bas et à droite */
+  rgba(251, 237, 190, 0.09) 0px 32px 16px; /* Ombre la plus prononcée en bas et à droite */
+}

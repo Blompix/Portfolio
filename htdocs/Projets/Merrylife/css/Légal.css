@@ -1,0 +1,445 @@
+/*--------------Les paramertre par defaut---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,600;1,700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --text-color: rgb(255, 255, 255);
+    --bg-color: rgb(0, 0, 0);
+    --icon-color: rgb(255, 255, 255);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background: var(--bg-color);
+}
+
+.Groupes-l-i {
+    max-width: 1500px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: auto;
+    height: auto;
+    position: relative;
+    background-color: #ffffff;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+.box-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+
+.titre-BCSO, .titre-LSPD, .titre-GalaxyClub, .titre-Bahamas, .titre-Bennys, .titre-EMS, .titre-Gouvernement {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+
+/*
+                    -------------------------------------------------------------
+                    ------------------------ L S P D ----------------------------
+                    -------------------------------------------------------------
+
+*/
+
+#LSPD{
+    border: 5px solid white;
+    box-shadow: 
+  rgb(13, 33, 65) 0px 50px 60px -12px inset, /* Ombre principale en haut */
+  rgb(13, 33, 65) 0px 18px 36px -18px inset, /* Ombre secondaire en haut */
+  rgba(13, 33, 65, 0.393) 0px -70px 50px 0px inset, /* Ombre sur le côté gauche */
+  rgba(13, 33, 65, 0.633) 0px -36px 30px 5px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(13, 33, 65, 0.39) 0px -79px 30px 0px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(13, 33, 65, 0.06) 0px 2px 1px, /* Légère ombre en bas et à droite */
+  rgba(13, 33, 65, 0.09) 0px 4px 2px, /* Ombre légère en bas et à droite */
+  rgba(13, 33, 65, 0.09) 0px 8px 4px, /* Ombre moyenne en bas et à droite */
+  rgba(13, 33, 65, 0.09) 0px 16px 8px, /* Ombre plus prononcée en bas et à droite */
+  rgba(13, 33, 65, 0.09) 0px 32px 16px; /* Ombre la plus prononcée en bas et à droite */
+
+}
+
+.button-LSPD {
+    display: flex;
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    background-image: linear-gradient(45deg, #0d2141 0%, #3b495f  51%, #0d2141  100%);
+}
+
+.button-LSPD:hover {
+    background-position: right center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.button-LSPD:active {
+    transform: scale(0.95);
+}
+
+
+/*
+                    -------------------------------------------------------------
+                    ------------------------ B C S O ----------------------------
+                    -------------------------------------------------------------
+
+*/
+
+
+.button-BCSO{
+    display: flex;
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    background-image: linear-gradient(45deg, #887e5c 0%, #e7e5de  51%, #887e5c  100%);
+}
+
+
+.button-BCSO:hover {
+    background-position: right center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.button-BCSO:active {
+    transform: scale(0.95);
+}
+
+#BCSO {
+    border: 5px solid white;
+    box-shadow: 
+  rgb(251, 237, 190) 0px 50px 60px -12px inset, /* Ombre principale en haut */
+  rgb(251, 237, 190) 0px 18px 36px -18px inset, /* Ombre secondaire en haut */
+  rgba(251, 237, 190, 0.393) 0px -70px 50px 0px inset, /* Ombre sur le côté gauche */
+  rgba(251, 237, 190, 0.633) 0px -36px 30px 5px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(251, 237, 190, 0.39) 0px -79px 30px 0px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(251, 237, 190, 0.06) 0px 2px 1px, /* Légère ombre en bas et à droite */
+  rgba(251, 237, 190, 0.09) 0px 4px 2px, /* Ombre légère en bas et à droite */
+  rgba(251, 237, 190, 0.09) 0px 8px 4px, /* Ombre moyenne en bas et à droite */
+  rgba(251, 237, 190, 0.09) 0px 16px 8px, /* Ombre plus prononcée en bas et à droite */
+  rgba(251, 237, 190, 0.09) 0px 32px 16px; /* Ombre la plus prononcée en bas et à droite */
+}
+
+/*
+                    -------------------------------------------------------------
+                    ------------------------ GalaxyClub ----------------------------
+                    -------------------------------------------------------------
+
+*/
+
+
+.button-GalaxyClub{
+    display: flex;
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    background-image: linear-gradient(45deg, #ad3276 0%, #454fb2  51%, #ad3276  100%);
+}
+
+
+.button-GalaxyClub:hover {
+    background-position: right center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.button-GalaxyClub:active {
+    transform: scale(0.95);
+}
+
+#GalaxyClub {
+    border: 5px solid white;
+    box-shadow: 
+  rgb(174, 52, 122) 0px 50px 60px -12px inset, /* Ombre principale en haut */
+  rgb(174, 52, 122) 0px 18px 36px -18px inset, /* Ombre secondaire en haut */
+  rgba(69, 79, 178, 0.393) 0px -70px 50px 0px inset, /* Ombre sur le côté gauche */
+  rgba(69, 79, 178, 0.633) 0px -36px 30px 5px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(69, 79, 178, 0.39) 0px -79px 30px 0px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(174, 52, 122, 0.06) 0px 2px 1px, /* Légère ombre en bas et à droite */
+  rgba(69, 79, 178) 0px 4px 2px, /* Ombre légère en bas et à droite */
+  rgba(174, 52, 122, 0.09) 0px 8px 4px, /* Ombre moyenne en bas et à droite */
+  rgba(69, 79, 178, 0.09) 0px 16px 8px, /* Ombre plus prononcée en bas et à droite */
+  rgba(69, 79, 178, 0.09) 0px 32px 16px; /* Ombre la plus prononcée en bas et à droite */
+}
+
+/*
+                    -------------------------------------------------------------
+                    ------------------------ Bahamas ----------------------------
+                    -------------------------------------------------------------
+
+*/
+
+
+.button-Bahamas{
+    display: flex;
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    background-image: linear-gradient(45deg, #f600ff 0%, #03b7d2  51%, #f600ff  100%);
+}
+
+
+.button-Bahamas:hover {
+    background-position: right center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.button-Bahamas:active {
+    transform: scale(0.95);
+}
+
+#Bahamas {
+    border: 5px solid white;
+    box-shadow: 
+  rgb(246, 0, 255) 0px 50px 60px -12px inset, /* Ombre principale en haut */
+  rgb(246, 0, 255) 0px 18px 36px -18px inset, /* Ombre secondaire en haut */
+  rgba(3, 183, 210, 0.393) 0px -70px 50px 0px inset, /* Ombre sur le côté gauche */
+  rgba(3, 183, 210, 0.633) 0px -36px 30px 5px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(3, 183, 210, 0.39) 0px -79px 30px 0px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(246, 0, 255, 0.06) 0px 2px 1px, /* Légère ombre en bas et à droite */
+  rgba(3, 183, 210) 0px 4px 2px, /* Ombre légère en bas et à droite */
+  rgba(246, 0, 255, 0.09) 0px 8px 4px, /* Ombre moyenne en bas et à droite */
+  rgba(3, 183, 210, 0.09) 0px 16px 8px, /* Ombre plus prononcée en bas et à droite */
+  rgba(3, 183, 210, 0.09) 0px 32px 16px; /* Ombre la plus prononcée en bas et à droite */
+}
+
+/*
+                    -------------------------------------------------------------
+                    ------------------------ Benny's ----------------------------
+                    -------------------------------------------------------------
+
+*/
+
+
+.button-Bennys{
+    display: flex;
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    background-image: linear-gradient(45deg, #fc2d5d 0%, #00b3dc  51%, #fc2d5d  100%);
+}
+
+
+.button-Bennys:hover {
+    background-position: right center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.button-Bennys:active {
+    transform: scale(0.95);
+}
+
+#Bennys{
+    border: 5px solid white;
+    box-shadow: 
+    rgb(193, 21, 61) 0px 50px 60px -12px inset, /* Ombre principale en haut */
+    rgb(193, 21, 61) 0px 18px 36px -18px inset, /* Ombre secondaire en haut */
+    rgba(0, 111, 155, 0.447) 0px -70px 50px 0px inset, /* Ombre sur le côté gauche */
+    rgba(0, 183, 255, 0.409) 0px -36px 30px 5px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+    rgba(0, 183, 255, 0.215) 0px -79px 30px 0px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+    rgba(0, 183, 255, 0.06) 0px 2px 1px, /* Légère ombre en bas et à droite */
+    rgb(0, 133, 167) 0px 4px 2px, /* Ombre légère en bas et à droite */
+    rgba(0, 183, 255, 0.09) 0px 8px 4px, /* Ombre moyenne en bas et à droite */
+    rgba(0, 183, 255, 0.09) 0px 16px 8px, /* Ombre plus prononcée en bas et à droite */
+    rgba(0, 183, 255, 0.09) 0px 32px 16px; /* Ombre la plus prononcée en bas et à droite */
+}
+
+/*
+                    -------------------------------------------------------------
+                    ------------------------ EMS ----------------------------
+                    -------------------------------------------------------------
+
+*/
+
+
+.button-EMS{
+    display: flex;
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    background-image: linear-gradient(45deg, #930000 0%, #000000  51%, #930000  100%);
+}
+
+
+.button-EMS:hover {
+    background-position: right center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.button-EMS:active {
+    transform: scale(0.95);
+}
+
+#EMS {
+    border: 5px solid white;
+    box-shadow: 
+  rgb(146, 0, 0) 0px 50px 60px -12px inset, /* Ombre principale en haut */
+  rgb(12, 0, 0) 0px 18px 36px -18px inset, /* Ombre secondaire en haut */
+  rgba(12, 0, 0, 0.393) 0px -70px 50px 0px inset, /* Ombre sur le côté gauche */
+  rgba(12, 0, 0, 0.954) 0px -36px 30px 5px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(12, 0, 0, 0.301) 0px -79px 30px 0px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(12, 0, 0, 0.813) 0px 2px 1px, /* Légère ombre en bas et à droite */
+  rgba(12, 0, 0) 0px 4px 2px, /* Ombre légère en bas et à droite */
+  rgba(12, 0, 0, 0.822) 0px 8px 4px, /* Ombre moyenne en bas et à droite */
+  rgba(12, 0, 0, 0.733) 0px 16px 8px, /* Ombre plus prononcée en bas et à droite */
+  rgba(12, 0, 0, 0.836) 0px 32px 16px; /* Ombre la plus prononcée en bas et à droite */
+}
+
+/*
+                    -------------------------------------------------------------
+                    ------------------------ Gouvernement ----------------------------
+                    -------------------------------------------------------------
+
+*/
+
+
+.button-Gouvernement{
+    display: flex;
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    background-image: linear-gradient(45deg, #000e25 5%, #5f5503  51%, #000e25 100%);
+}
+
+
+.button-Gouvernement:hover {
+    background-position: right center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.button-Gouvernement:active {
+    transform: scale(0.95);
+}
+
+#Gouvernement {
+    border: 5px solid white;
+    box-shadow: 
+  rgb(0, 18, 47) 0px 50px 60px -12px inset, /* Ombre principale en haut */
+  rgb(0, 18, 47) 0px 18px 36px -18px inset, /* Ombre secondaire en haut */
+  rgba(0, 18, 47, 0.393) 0px -70px 50px 0px inset, /* Ombre sur le côté gauche */
+  rgba(0, 18, 47, 0.779) 0px -36px 30px 5px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(0, 18, 47, 0.146) 0px -79px 30px 0px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(0, 18, 47, 0.123) 0px 2px 1px, /* Légère ombre en bas et à droite */
+  rgba(0, 18, 47, 0.094) 0px 4px 2px, /* Ombre légère en bas et à droite */
+  rgba(0, 18, 47, 0.123) 0px 8px 4px, /* Ombre moyenne en bas et à droite */
+  rgba(0, 18, 47, 0.148)0px 16px 8px, /* Ombre plus prononcée en bas et à droite */
+  rgba(0, 18, 47, 0.292) 0px 32px 16px; /* Ombre la plus prononcée en bas et à droite */
+}

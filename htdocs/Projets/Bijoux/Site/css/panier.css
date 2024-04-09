@@ -1,0 +1,61 @@
+/* Style de la page du panier */
+body.panier {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Conteneur du panier */
+section {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Tableau du panier */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Lien de retour à la boutique */
+a.link {
+    display: block;
+    text-align: center;
+    background-color: #0078d4;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+a.link:hover {
+    background-color: #005bb8;
+}
+
+/* Bouton Supprimer */
+a img#supp {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}

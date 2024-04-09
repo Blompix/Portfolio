@@ -1,0 +1,86 @@
+/*---Couleur pour le footer-----*/
+.footer-colors {
+    --box-shadow: rgb(60, 92, 156);
+    --text-color: rgb(255, 255, 255);
+    --bg-color: rgb(0, 0, 0);
+    --icon-color: rgb(255, 255, 255);
+
+    box-shadow: 0px 0px 0px 2px var(--box-shadow);
+    margin-top: 100px;
+    padding: 20px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+footer {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Centre les éléments verticalement */
+}
+
+.logo {
+    max-width: 200px;
+    margin-right: 25px;
+    /* Réduit davantage la marge à droite du logo */
+}
+.logo img{
+    width: 100%;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-category {
+    margin-right: 100px;
+    /* Réduit davantage la marge autour des catégories */
+    text-align: left;
+}
+
+
+.footer-category i {
+    color: var(--text-color);
+    font-size: 18px;
+    text-decoration: none;
+    box-shadow: 0px 2px 0px var(--box-shadow);
+}
+
+.footer-category a {
+    color: var(--text-color);
+    margin-top: 10px;
+    font-size: 12px;
+    margin: 8px 0 0;
+}
+
+.footer-category p {
+    color: var(--text-color);
+    font-size: 12px;
+    margin: 8px 0 0;
+}
+
+
+
+
+
+/* a trier */
+
+
+/* Styles pour les icônes dans le pied de page */
+.fIcons {
+    display: flex;
+    margin-top: 15px
+}
+
+.fIcon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+

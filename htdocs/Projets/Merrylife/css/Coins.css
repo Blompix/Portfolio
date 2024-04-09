@@ -1,0 +1,180 @@
+/*--------------Les paramertre par defaut---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,600;1,700&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*---Couleur-----*/
+:root{
+    --main-color: rgb(255, 170, 0);
+    --text-color: rgb(255, 255, 255);
+    --bg-color: rgb(0, 0, 0);
+    --icon-color: black;
+}
+
+body{
+    color: var(--text-color);
+    background: var(--bg-color);
+}
+
+/*------------------------contenu de la boutique------------------------*/
+
+/*---Div qui englobe tout-----*/
+.shop-content{
+    max-width: 1500px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+}
+
+/*---message en haut avant les produit-----*/
+.Section-title{
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--text-color);
+   
+}
+
+.Section-title a{
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(53, 87, 157);
+    box-sizing: border-box;
+    position: relative;
+    border: 3px solid var(--bg-color);
+    max-width: 800px; /* Ajustez la valeur selon votre préférence */
+    background: linear-gradient(180deg, rgb(53, 87, 157) 0%, rgb(0, 0, 0) 50%, rgb(53, 87, 157) 100%);
+
+}
+
+
+
+/*---Div qui englobe tout-----*/
+.wrapper {
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+
+.product-box{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    margin: 1rem;
+    margin-bottom: 5rem;
+    flex-basis: 25%;
+    min-width: 200px;
+    box-shadow: rgba(53, 88, 157, 0.815) 0px 0px 0px 3px;
+    border-radius: 20px black;
+    transition: transform 0.5s;
+}
+
+
+.product-box input{
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.product-img{
+    width: 100%;
+    border: #000000;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+
+/*----------------------------------------------------*/
+.product-title{
+    text-align: center;
+    margin: auto;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+/*---le prix-----*/
+.price{
+    color: var(--text-color);
+    text-align: center;
+    font-weight: 500;
+}
+
+/*----------------Animation boutton----------------------*/
+.button-87 {
+    display: flex;
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    color: var(--text-color);
+    box-shadow: 0px 0px 14px -7px #ffffff;
+    background-image: linear-gradient(45deg, rgb(53, 87, 157) 0%, rgb(90, 133, 218)  51%, rgb(53, 87, 157)  100%);
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    
+}
+  
+.button-87:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+  
+.button-87:active {
+    transform: scale(0.95);
+}
+/*----------------------------------------------------*/
+
+
+/*---transition d'images quand la sourie passe-----*/
+
+.product-img:nth-child(2){
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    transition: opacity ease 1s;
+}
+
+.product-box:hover img:nth-child(2){
+    opacity: 1;
+}
+
+
+/*-------------------------------------------------*/

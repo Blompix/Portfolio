@@ -1,0 +1,400 @@
+/* Réinitialisation CSS avec Normalize.css */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*---Couleur-----*/
+:root {
+    --box-shadow: rgb(60, 92, 156);
+    --box-shadow-légale: #02ff07;
+    --box-shadow-illégal: #da585a;
+    --main-color: rgb(255, 170, 0);
+    --text-color: rgb(255, 255, 255);
+    --bg-color: rgb(0, 0, 0);
+    --icon-color: rgb(255, 255, 255);
+}
+
+/*-----------Couleur de texte globals----------------------*/
+h1, h2, h3, h4, h5, h6, p, li, ul, i, a {
+    color: var(--text-color);
+}
+
+/* ------------------------- fond et aspect global -------------------------*/
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background: var(--bg-color);
+}
+
+.hero-section {
+    background-image: url('../images/dregp.jpg');
+    background-size: cover;
+    background-position: center bottom 30%; /* Ajustez cette ligne pour déplacer l'image vers le haut */
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 650px; /* Ajustez la hauteur de la section selon vos besoins */
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    margin-top: 21rem;
+}
+
+.btn {
+    margin-top: 5rem;
+    display: inline-block;
+    background-color: var(--box-shadow);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.container1 {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+    padding: 2rem;
+    background-image: radial-gradient(circle, rgb(0, 0, 0), rgb(60, 92, 156));
+    border-radius: 2rem;
+}
+
+/*---------------------------------------------------------------*/
+.services-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.service {
+    flex-basis: 48%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/*---------------------------------------------------------------*/
+.instructeur-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.images {
+    flex-basis: 48%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.images img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/*---------------------------------------------------------------*/
+.moniteur-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.Fonda {
+    margin-left: 50px;
+    flex-basis: 48%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 1.5rem;
+}
+
+.Fonda img {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/*-----------//Première partie qui décrit Merry Life//-----------*/
+.moi {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/*---------------------------------------------------------------*/
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img {
+    width: 125%;
+    padding: 30px;
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 100px;
+    color: var(--text-color);
+}
+
+.col-2 h2, h4 {
+    color: var(--text-color);
+}
+
+.col-2 a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 30px;
+    background-color: var(--box-shadow);
+    border-radius: 30px;
+    margin-top: 25px;
+    transition: background 0.3s;
+    color: var(--text-color);
+}
+
+/* Quand je passe la souris sur le bouton "explorez maintenant" */
+.col-2 a:hover {
+    background: #ffffff;
+    color: var(--box-shadow);
+}
+
+.header-section {
+    margin-top: -20px;
+    margin-bottom: 75px;
+}
+
+/* Contenu de la boutique */
+/*---Div qui englobe tout-----*/
+.Groupes-l-i {
+    max-width: 1500px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+}
+
+/*---div qui s'occupe de l'affiche de chaque box-----*/
+
+/*---message en haut avant les produits-----*/
+
+.footer-links {
+    display: flex;
+}
+
+.footer-category {
+    margin-right: 100px;
+    text-align: left;
+}
+
+.groupe {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 3rem;
+}
+
+.groupe i {
+    color: var(--text-color);
+    font-size: 2.5rem;
+    box-shadow: 0px 2px 0px var(--box-shadow);
+}
+
+.Section-Gtitre {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Section-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/*----box legal et illegal-----*/
+.L-I {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.Groupes-l-i {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: auto;
+    height: auto;
+    position: relative;
+    background-color: #ffffff;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+.box input {
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.box-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+/* box shadow pour le legal */
+#legale {
+    box-shadow: var(--box-shadow-légale) 0px 0px 30px 10px;
+}
+
+/* box shadow pour l'illegal' */
+#illégal {
+    box-shadow: var(--box-shadow-illégal) 0px 0px 30px 10px;
+}
+
+/*Titre*/
+.titre-légale {
+    text-align: center;
+    margin: auto;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    color: var(--box-shadow-légale);
+}
+
+.titre-illégal {
+    text-align: center;
+    margin: auto;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    color: var(--box-shadow-illégal);
+}
+
+/*----------------Animation bouton Legal----------------------*/
+.button-87{
+    display: flex;
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    background-image: linear-gradient(45deg, #02ff07 0%, #eaffeb  51%, #02ff07  100%);
+}
+
+.button-illégal {
+    display: flex;
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    background-image: linear-gradient(45deg, #da585a 0%, #fcbfc0  51%, #da585a  100%);
+}
+
+.button-87:hover {
+    background-position: right center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.button-illégal:hover {
+    background-position: right center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.button-87:active {
+    transform: scale(0.95);
+}
+
+.button-illégal:active {
+    transform: scale(0.95);
+}
+/*----------------------------------------------------*/

@@ -1,0 +1,214 @@
+/*--------------Les paramertre par defaut---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,600;1,700&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*---Couleur-----*/
+:root{
+    --main-color: rgb(255, 170, 0);
+    --text-color: black;
+    --bg-color: white;
+    --icon-color: black;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.container1{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/*---------------------------------------------------------------*/
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.service {
+    flex-basis: 48%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/*---------------------------------------------------------------*/
+
+.instructeur-images{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+.images{
+    flex-basis: 48%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.images img{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+
+
+/*---------------------------------------------------------------*/
+
+.moniteur-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.instructeur {
+    flex-basis: 48%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.instructeur img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+/*---------------------------------------------------------------*/
+.header-serction{
+    margin-top: -20px;
+    background: radial-gradient(#fff, #3C328B);
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+}
+
+
+.moi{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+/* la ârti information a coter de la carte */
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+/* la parti de la carte */
+.col-2 iframe{
+    width: 500px;
+    height: 250px;
+    box-shadow: #ffffff 0px 0px 15px 0px;
+}
+
+.col-2 h1{
+    margin-top: 20px;
+    margin-bottom: 10;
+}
+
+.col-3{
+    flex-basis: 45%;
+    min-width: 250px;
+
+}
+
+.col-3 h4{
+    margin-top: auto;
+}
+
+
+
+
+/*---------------------------------------------------------------*/
+
+/* Styles spécifiques au thème noir */
+.dark-theme {
+    background-color: #3e3d3d;
+    color: #fff;
+  }
+.dark-theme h1,
+.dark-theme h2,
+.dark-theme h3,
+.dark-theme h4,
+.dark-theme h5,
+.dark-theme h6,
+.dark-theme p,
+.dark-theme li,
+.dark-theme ul,
+.dark-theme i,
+.dark-theme a {
+  color: #fff; /* Couleur du texte pour le thème noir */
+}

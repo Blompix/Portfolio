@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+#presentation {
+    width: 100%;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+#presentation img {
+    width: 100%;
+    height: auto;
+}
+
+#presentation h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #000;
+    margin-left: 10px;
+}
+
+main {
+    padding-top: 150px; /* Ajoutez ceci pour éviter que le contenu ne soit caché sous l'en-tête */
+}

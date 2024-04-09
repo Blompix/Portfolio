@@ -1,0 +1,91 @@
+/*--------------Les paramertre par defaut---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,600;1,700&display=swap');
+
+
+header {
+    display: flex;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 75px;
+
+    /* background du header */
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(60, 92, 156, 0.326) 30%, rgba(60, 92, 156, 0.464) 50%, rgba(60, 92, 156, 0.4) 70%, rgb(0, 0, 0) 100%);
+
+    /* Box Shadow */
+    box-shadow:  rgb(60, 92, 156) 0px 2px 0px ;
+
+}
+
+.logo img {
+    max-width: 75%;
+}
+
+
+#barre {
+    margin-left:  auto;
+    margin-right: auto;
+}
+
+
+#barre ul {
+    display: flex;
+    list-style: none;
+    margin-right: 5px;
+}
+
+#barre li:not(:last-child) {
+    margin-right: 50px;
+}
+
+#barre a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+/*-------------- les icons ------------------*/
+
+
+.icons {
+    margin-right:auto;
+}
+
+.icons a:not(:last-child) {
+    margin-right: 50px;
+}
+
+.icons i {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+/* Styliser le nom de l'utilisateur */
+.icons span {
+    font-size: 18px; /* Taille du texte */
+    color: rgb(242, 242, 242); /* Couleur du texte en blanc */
+    margin-right: 30px; /* Espace entre l'icône et le texte */
+    margin-left: -10px; /* Espace entre l'icône et le texte */
+}
+
+
+
+/*-------------- tout les text du body ------------------*/
+
+body header input[type=text] {
+    width: 700px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 7px 20px 7px 40px;
+}
+

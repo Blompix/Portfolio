@@ -1,0 +1,91 @@
+header {
+    display: flex;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+    margin-bottom: 75px;
+    box-shadow: rgb(77, 62, 38) 0px 0px 10px 0px;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+
+#barre {
+    margin-left:  auto;
+    margin-right: auto;
+}
+
+
+#barre ul {
+    display: flex;
+    list-style: none;
+    margin-right: 5px;
+}
+
+#barre li:not(:last-child) {
+    margin-right: 50px;
+}
+
+#barre a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+/*-------------- les icons ------------------*/
+
+
+.icons {
+    margin-right:auto;
+}
+
+.icons a:not(:last-child) {
+    margin-right: 50px;
+}
+
+.icons i {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+/* Styliser le nom de l'utilisateur */
+.icons span {
+    font-size: 18px; /* Taille du texte */
+    color: rgb(242, 242, 242); /* Couleur du texte en blanc */
+    margin-right: 30px; /* Espace entre l'icône et le texte */
+    margin-left: -10px; /* Espace entre l'icône et le texte */
+}
+
+
+
+/*-------------- bare de recherche ------------------*/
+
+
+.search-box {
+    margin-right: 70px;
+    margin-left: 10px;
+}
+
+
+/*-------------- tout les text du body ------------------*/
+
+body header input[type=text] {
+    width: 700px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 7px 20px 7px 40px;
+}
+

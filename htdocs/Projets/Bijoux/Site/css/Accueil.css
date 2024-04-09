@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,600;1,700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --main-color: red;
+    --text-color: black;
+    --bg-color: white;
+}
+
+/*
+nav ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+----------------------------------------------------
+nav ul li a{
+    text-decoration: none;
+    text-size-adjust: 50px;
+    color: rgb(255, 196, 0);
+    transition: background 0.3s;
+}
+
+nav ul li a:hover{
+    background:rgb(255, 196, 0);
+    color: rgb(255, 255, 255);
+}
+
+*/
+
+.moi{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/*---------------------------------------------------------------*/
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img{
+    width: 50%;
+    padding: 30px;
+}
+
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 100px;
+}
+
+.col-2 a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 30px;
+    background-color: rgb(255, 196, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-top: 25px;
+    transition: background 0.3s;
+}
+
+/*quand je passe la sourie sur le boutton "explorez maintenant"*/
+
+.col-2 a:hover{
+    background:#969696;
+    color: rgb(255, 196, 0);
+}
+
+p{
+    color: rgb(56, 56, 55);
+}
+
+.header-serction{
+    margin-top: -20px;
+    background: radial-gradient(#fff, #eaf2fb);
+}
+
+
+/*---------------------------------------------------------------*/
+
+                   /*style de la section categorie*/
+
+
+.categories{
+    margin: 70px 0px;
+}
+
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin: auto;
+}
+
+.col-3 img{
+    width: 100%
+    ;
+}
+
+/*tout les texte en h2 dans container auront se style*/
+
+
+.moi h2{
+    text-align: center;
+    font-size: 1.8rem;
+    color: #130060;
+    padding: 10px;
+}
+
+/*section de meilleur produit*/
+
+
+.col-4{
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 15px;
+    transition: transform 0.5s;
+}
+
+.col-4 img{
+    width: 100%;
+}
+
+.rating {
+    color: rgb(255, 140, 0);
+}
+
+.col-4:hover{
+    padding: 50px;
+    border: 2px solid;
+}
+

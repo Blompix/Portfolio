@@ -1,0 +1,735 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,600;1,700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --text-color: rgb(255, 255, 255);
+    --bg-color: rgb(0, 0, 0);
+    --icon-color: rgb(255, 255, 255);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-image: radial-gradient(#5a84da, #000000 50%);
+}
+
+.Groupes-l-i {
+    max-width: 1500px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: auto;
+    height: auto;
+    position: relative;
+    background-color: #ffffff;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+.box-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.titre-Vagos, .titre-SOA,.titre-LostMC, .titre-BALLAS, .titre-bloods,.titre-Marabunta, .titre-Families, .titre-Aztecas, .titre-Crips,.titre-MS13, .titre-410TH{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+/*
+                    -------------------------------------------------------------
+                    ------------------------ Mayans MC ----------------------------
+                    -------------------------------------------------------------
+
+*/
+
+
+.titre-MayansMC {
+    text-align: center;
+    margin: auto;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.button-MayansMC{
+    display: flex;
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    background-image: linear-gradient(45deg, #3b0000 0%, #05260a  51%, #000000  100%);
+}
+
+
+.button-MayansMC:hover {
+    background-position: right center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.button-MayansMC:active {
+    transform: scale(0.95);
+}
+
+#MayansMC {
+    border: 5px solid white;
+    box-shadow: 
+  rgb(0, 48, 20) 0px 50px 60px -12px inset, /* Ombre principale en haut */
+  rgb(0, 48, 20) 0px 18px 36px -18px inset, /* Ombre secondaire en haut */
+  rgba(0, 48, 20, 0.393) 0px -70px 50px 0px inset, /* Ombre sur le côté gauche */
+  rgba(0, 48, 20, 0.633) 0px -36px 30px 5px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(0, 48, 20, 0.39) 0px -79px 30px 0px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(0, 48, 20, 0.06) 0px 2px 1px, /* Légère ombre en bas et à droite */
+  rgba(0, 48, 20, 0.09) 0px 4px 2px, /* Ombre légère en bas et à droite */
+  rgba(0, 48, 20, 0.09) 0px 8px 4px, /* Ombre moyenne en bas et à droite */
+  rgba(0, 48, 20, 0.09) 0px 16px 8px, /* Ombre plus prononcée en bas et à droite */
+  rgba(0, 48, 20, 0.09) 0px 32px 16px; /* Ombre la plus prononcée en bas et à droite */
+}
+
+
+/*
+                    -------------------------------------------------------------
+                    ------------------------ Sons of Anarchy ----------------------------
+                    -------------------------------------------------------------
+
+*/
+
+
+
+.button-SOA{
+    display: flex;
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    background-image: linear-gradient(45deg, #000000 0%, #430606  51%, #000000  100%);
+}
+
+
+.button-SOA:hover {
+    background-position: right center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.button-SOA:active {
+    transform: scale(0.95);
+}
+
+#SOA {
+    border: 5px solid white;
+    box-shadow: 
+  rgb(0, 0, 0) 0px 50px 60px -12px inset, /* Ombre principale en haut */
+  rgb(0, 0, 0) 0px 18px 36px -18px inset, /* Ombre secondaire en haut */
+  rgba(0, 0, 0, 0.393) 0px -70px 50px 0px inset, /* Ombre sur le côté gauche */
+  rgba(0, 0, 0, 0.633) 0px -36px 30px 5px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(0, 0, 0, 0.39) 0px -79px 30px 0px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(0, 0, 0, 0.06) 0px 2px 1px, /* Légère ombre en bas et à droite */
+  rgba(0, 0, 0, 0.09) 0px 4px 2px, /* Ombre légère en bas et à droite */
+  rgba(0, 0, 0, 0.09) 0px 8px 4px, /* Ombre moyenne en bas et à droite */
+  rgba(0, 0, 0, 0.09) 0px 16px 8px, /* Ombre plus prononcée en bas et à droite */
+  rgba(0, 0, 0, 0.09) 0px 32px 16px; /* Ombre la plus prononcée en bas et à droite */
+}
+
+
+/*
+                    -------------------------------------------------------------
+                    ------------------------ Lost MC ----------------------------
+                    -------------------------------------------------------------
+
+*/
+
+
+.button-LostMC{
+    display: flex;
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    background-image: linear-gradient(45deg, #000000 0%, #636161  51%, #000000  100%);
+}
+
+
+.button-LostMC:hover {
+    background-position: right center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.button-LostMC:active {
+    transform: scale(0.95);
+}
+
+#LostMC {
+    border: 5px solid white;
+    box-shadow: 
+  rgb(0, 0, 0) 0px 50px 60px -12px inset, /* Ombre principale en haut */
+  rgb(0, 0, 0) 0px 18px 36px -18px inset, /* Ombre secondaire en haut */
+  rgba(0, 0, 0, 0.393) 0px -70px 50px 0px inset, /* Ombre sur le côté gauche */
+  rgba(0, 0, 0, 0.633) 0px -36px 30px 5px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(0, 0, 0, 0.39) 0px -79px 30px 0px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(0, 0, 0, 0.06) 0px 2px 1px, /* Légère ombre en bas et à droite */
+  rgba(0, 0, 0, 0.09) 0px 4px 2px, /* Ombre légère en bas et à droite */
+  rgba(0, 0, 0, 0.09) 0px 8px 4px, /* Ombre moyenne en bas et à droite */
+  rgba(0, 0, 0, 0.09) 0px 16px 8px, /* Ombre plus prononcée en bas et à droite */
+  rgba(0, 0, 0, 0.09) 0px 32px 16px; /* Ombre la plus prononcée en bas et à droite */
+}
+
+/*
+                    -------------------------------------------------------------
+                    ------------------------ B L O O D S ----------------------------
+                    -------------------------------------------------------------
+
+*/
+
+#bloods{
+    border: 5px solid white;
+    box-shadow: 
+  rgb(183, 3, 6) 0px 50px 60px -12px inset, /* Ombre principale en haut */
+  rgb(183, 3, 6) 0px 18px 36px -18px inset, /* Ombre secondaire en haut */
+  rgba(183, 3, 6, 0.393) 0px -70px 50px 0px inset, /* Ombre sur le côté gauche */
+  rgba(183, 3, 6, 0.633) 0px -36px 30px 5px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(183, 3, 6, 0.39) 0px -79px 30px 0px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(183, 3, 6, 0.06) 0px 2px 1px, /* Légère ombre en bas et à droite */
+  rgba(183, 3, 6, 0.09) 0px 4px 2px, /* Ombre légère en bas et à droite */
+  rgba(183, 3, 6, 0.09) 0px 8px 4px, /* Ombre moyenne en bas et à droite */
+  rgba(183, 3, 6, 0.09) 0px 16px 8px, /* Ombre plus prononcée en bas et à droite */
+  rgba(183, 3, 6, 0.09) 0px 32px 16px; /* Ombre la plus prononcée en bas et à droite */
+
+}
+
+
+.button-bloods {
+    display: flex;
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    background-image: linear-gradient(45deg, #b70306 0%, #50191a  51%, #b70306  100%);
+}
+
+.button-bloods:hover {
+    background-position: right center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.button-bloods:active {
+    transform: scale(0.95);
+}
+
+
+/*
+                    -------------------------------------------------------------
+                    ------------------------ V A G O S ----------------------------
+                    -------------------------------------------------------------
+
+*/
+
+
+
+
+.button-Vagos{
+    display: flex;
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    background-image: linear-gradient(45deg, #fff833 0%, #363515  51%, #fff833  100%);
+}
+
+
+.button-Vagos:hover {
+    background-position: right center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.button-Vagos:active {
+    transform: scale(0.95);
+}
+
+#Vagos {
+    border: 5px solid white;
+    box-shadow: 
+  rgb(255, 248, 51) 0px 50px 60px -12px inset, /* Ombre principale en haut */
+  rgb(255, 248, 51) 0px 18px 36px -18px inset, /* Ombre secondaire en haut */
+  rgba(255, 248, 51, 0.393) 0px -70px 50px 0px inset, /* Ombre sur le côté gauche */
+  rgba(255, 248, 51, 0.633) 0px -36px 30px 5px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(255, 248, 51, 0.39) 0px -79px 30px 0px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(255, 248, 51, 0.06) 0px 2px 1px, /* Légère ombre en bas et à droite */
+  rgba(255, 248, 51, 0.09) 0px 4px 2px, /* Ombre légère en bas et à droite */
+  rgba(255, 248, 51, 0.09) 0px 8px 4px, /* Ombre moyenne en bas et à droite */
+  rgba(255, 248, 51, 0.09) 0px 16px 8px, /* Ombre plus prononcée en bas et à droite */
+  rgba(255, 248, 51, 0.09) 0px 32px 16px; /* Ombre la plus prononcée en bas et à droite */
+}
+
+
+/*
+                    -------------------------------------------------------------
+                    ------------------------ B A L L A S ----------------------------
+                    -------------------------------------------------------------
+
+*/
+
+.button-BALLAS{
+    display: flex;
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    background-image: linear-gradient(45deg, #72009a 0%, #b36dcd  51%, #72009a  100%);
+}
+
+
+.button-BALLAS:hover {
+    background-position: right center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.button-BALLASs:active {
+    transform: scale(0.95);
+}
+
+#BALLAS {
+    border: 5px solid white;
+    box-shadow: 
+  rgb(114, 0, 154) 0px 50px 60px -12px inset, /* Ombre principale en haut */
+  rgb(114, 0, 154) 0px 18px 36px -18px inset, /* Ombre secondaire en haut */
+  rgba(114, 0, 154, 0.393) 0px -70px 50px 0px inset, /* Ombre sur le côté gauche */
+  rgba(114, 0, 154, 0.633) 0px -36px 30px 5px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(114, 0, 154, 0.39) 0px -79px 30px 0px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(114, 0, 154, 0.06) 0px 2px 1px, /* Légère ombre en bas et à droite */
+  rgba(114, 0, 154, 0.09) 0px 4px 2px, /* Ombre légère en bas et à droite */
+  rgba(114, 0, 154, 0.09) 0px 8px 4px, /* Ombre moyenne en bas et à droite */
+  rgba(114, 0, 154, 0.09) 0px 16px 8px, /* Ombre plus prononcée en bas et à droite */
+  rgba(114, 0, 154, 0.09) 0px 32px 16px; /* Ombre la plus prononcée en bas et à droite */
+}
+
+
+
+/*
+                    -------------------------------------------------------------
+                    ------------------------ Families ----------------------------
+                    -------------------------------------------------------------
+
+*/
+
+.button-Families{
+    display: flex;
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    background-image: linear-gradient(45deg, #018d16 0%, #0a2c0f  51%, #018d16  100%);
+}
+
+
+.button-Families:hover {
+    background-position: right center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.button-Families:active {
+    transform: scale(0.95);
+}
+
+#Families {
+    border: 5px solid white;
+    box-shadow: 
+  rgb(1, 141, 22) 0px 50px 60px -12px inset, /* Ombre principale en haut */
+  rgb(1, 141, 22) 0px 18px 36px -18px inset, /* Ombre secondaire en haut */
+  rgba(1, 141, 22, 0.393) 0px -70px 50px 0px inset, /* Ombre sur le côté gauche */
+  rgba(1, 141, 22, 0.633) 0px -36px 30px 5px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(1, 141, 22, 0.39) 0px -79px 30px 0px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(1, 141, 22, 0.06) 0px 2px 1px, /* Légère ombre en bas et à droite */
+  rgba(1, 141, 22, 0.09) 0px 4px 2px, /* Ombre légère en bas et à droite */
+  rgba(1, 141, 22, 0.09) 0px 8px 4px, /* Ombre moyenne en bas et à droite */
+  rgba(1, 141, 22, 0.09) 0px 16px 8px, /* Ombre plus prononcée en bas et à droite */
+  rgba(1, 141, 22, 0.09) 0px 32px 16px; /* Ombre la plus prononcée en bas et à droite */
+}
+
+
+/*
+                    -------------------------------------------------------------
+                    ------------------------ Marabunta ----------------------------
+                    -------------------------------------------------------------
+
+*/
+
+.button-Marabunta{
+    display: flex;
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    background-image: linear-gradient(45deg, #6091be 0%, #b2c7da  51%, #6091be  100%);
+}
+
+
+.button-Marabunta:hover {
+    background-position: right center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.button-Marabunta:active {
+    transform: scale(0.95);
+}
+
+#Marabunta {
+    border: 5px solid white;
+    box-shadow: 
+  rgb(96, 145, 190) 0px 50px 60px -12px inset, /* Ombre principale en haut */
+  rgb(96, 145, 190) 0px 18px 36px -18px inset, /* Ombre secondaire en haut */
+  rgba(96, 145, 190, 0.393) 0px -70px 50px 0px inset, /* Ombre sur le côté gauche */
+  rgba(96, 145, 190, 0.633) 0px -36px 30px 5px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(96, 145, 190, 0.39) 0px -79px 30px 0px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(96, 145, 190, 0.06) 0px 2px 1px, /* Légère ombre en bas et à droite */
+  rgba(96, 145, 190, 0.09) 0px 4px 2px, /* Ombre légère en bas et à droite */
+  rgba(96, 145, 190, 0.09) 0px 8px 4px, /* Ombre moyenne en bas et à droite */
+  rgba(96, 145, 190, 0.09) 0px 16px 8px, /* Ombre plus prononcée en bas et à droite */
+  rgba(96, 145, 190, 0.09) 0px 32px 16px; /* Ombre la plus prononcée en bas et à droite */
+}
+
+
+/*
+                    -------------------------------------------------------------
+                    ------------------------ Aztecas ----------------------------
+                    -------------------------------------------------------------
+
+*/
+
+
+
+
+.button-Aztecas{
+    display: flex;
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    background-image: linear-gradient(45deg, #38b4f9 0%, #bbdbec  51%, #38b4f9  100%);
+}
+
+
+.button-Aztecas:hover {
+    background-position: right center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.button-Aztecas:active {
+    transform: scale(0.95);
+}
+
+#Aztecas {
+    border: 5px solid white;
+    box-shadow: 
+  rgb(56, 180, 249) 0px 50px 60px -12px inset, /* Ombre principale en haut */
+  rgb(56, 180, 249) 0px 18px 36px -18px inset, /* Ombre secondaire en haut */
+  rgba(56, 180, 249, 0.393) 0px -70px 50px 0px inset, /* Ombre sur le côté gauche */
+  rgba(56, 180, 249, 0.633) 0px -36px 30px 5px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(56, 180, 249, 0.39) 0px -79px 30px 0px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(56, 180, 249, 0.06) 0px 2px 1px, /* Légère ombre en bas et à droite */
+  rgba(56, 180, 249, 0.09) 0px 4px 2px, /* Ombre légère en bas et à droite */
+  rgba(56, 180, 249, 0.09) 0px 8px 4px, /* Ombre moyenne en bas et à droite */
+  rgba(56, 180, 249, 0.09) 0px 16px 8px, /* Ombre plus prononcée en bas et à droite */
+  rgba(56, 180, 249, 0.09) 0px 32px 16px; /* Ombre la plus prononcée en bas et à droite */
+}
+
+
+
+/*
+                    -------------------------------------------------------------
+                    ------------------------ Crips ----------------------------
+                    -------------------------------------------------------------
+
+*/
+
+.button-Crips{
+    display: flex;
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    background-image: linear-gradient(45deg, #00038e 0%, #6567d1  51%, #00038e  100%);
+}
+
+
+.button-Crips:hover {
+    background-position: right center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.button-Crips:active {
+    transform: scale(0.95);
+}
+
+#Crips {
+    border: 5px solid white;
+    box-shadow: 
+  rgb(0, 3, 142) 0px 50px 60px -12px inset, /* Ombre principale en haut */
+  rgb(0, 3, 142) 0px 18px 36px -18px inset, /* Ombre secondaire en haut */
+  rgba(0, 3, 142, 0.393) 0px -70px 50px 0px inset, /* Ombre sur le côté gauche */
+  rgba(0, 3, 142, 0.633) 0px -36px 30px 5px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(0, 3, 142, 0.39) 0px -79px 30px 0px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(0, 3, 142, 0.06) 0px 2px 1px, /* Légère ombre en bas et à droite */
+  rgba(0, 3, 142, 0.09) 0px 4px 2px, /* Ombre légère en bas et à droite */
+  rgba(0, 3, 142, 0.09) 0px 8px 4px, /* Ombre moyenne en bas et à droite */
+  rgba(0, 3, 142, 0.09) 0px 16px 8px, /* Ombre plus prononcée en bas et à droite */
+  rgba(0, 3, 142, 0.09) 0px 32px 16px; /* Ombre la plus prononcée en bas et à droite */
+}
+
+
+
+/*
+                    -------------------------------------------------------------
+                    ------------------------ 410TH ----------------------------
+                    -------------------------------------------------------------
+
+*/
+
+
+.button-410TH{
+    display: flex;
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    background-image: linear-gradient(45deg, #000000 0%, #6c6c6c  51%, #000000  100%);
+}
+
+
+.button-410TH:hover {
+    background-position: right center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.button-410TH:active {
+    transform: scale(0.95);
+}
+
+#l410TH {
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 
+  rgb(0, 0, 0) 0px 50px 60px -12px inset, /* Ombre principale en haut */
+  rgb(0, 0, 0) 0px 18px 36px -18px inset, /* Ombre secondaire en haut */
+  rgba(0, 0, 0, 0.393) 0px -70px 50px 0px inset, /* Ombre sur le côté gauche */
+  rgba(0, 0, 0, 0.633) 0px -36px 30px 5px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(0, 0, 0, 0.39) 0px -79px 30px 0px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(0, 0, 0, 0.06) 0px 2px 1px, /* Légère ombre en bas et à droite */
+  rgba(0, 0, 0, 0.09) 0px 4px 2px, /* Ombre légère en bas et à droite */
+  rgba(0, 0, 0, 0.09) 0px 8px 4px, /* Ombre moyenne en bas et à droite */
+  rgba(0, 0, 0, 0.09) 0px 16px 8px, /* Ombre plus prononcée en bas et à droite */
+  rgba(0, 0, 0, 0.09) 0px 32px 16px; /* Ombre la plus prononcée en bas et à droite */
+}
+
+
+/*
+                    -------------------------------------------------------------
+                    ------------------------ MS13 ----------------------------
+                    -------------------------------------------------------------
+
+*/
+
+
+.button-MS13{
+    display: flex;
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    background-image: linear-gradient(45deg, #000000 0%, #6c6c6c  51%, #000000  100%);
+}
+
+
+.button-MS13:hover {
+    background-position: right center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.button-MS13:active {
+    transform: scale(0.95);
+}
+
+#MS13 {
+    border: 5px solid white;
+    box-shadow: 
+  rgb(0, 0, 0) 0px 50px 60px -12px inset, /* Ombre principale en haut */
+  rgb(0, 0, 0) 0px 18px 36px -18px inset, /* Ombre secondaire en haut */
+  rgba(0, 0, 0, 0.393) 0px -70px 50px 0px inset, /* Ombre sur le côté gauche */
+  rgba(0, 0, 0, 0.633) 0px -36px 30px 5px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(0, 0, 0, 0.39) 0px -79px 30px 0px inset, /* Ajustement de la partie basse, ombre sur le côté gauche */
+  rgba(0, 0, 0, 0.06) 0px 2px 1px, /* Légère ombre en bas et à droite */
+  rgba(0, 0, 0, 0.09) 0px 4px 2px, /* Ombre légère en bas et à droite */
+  rgba(0, 0, 0, 0.09) 0px 8px 4px, /* Ombre moyenne en bas et à droite */
+  rgba(0, 0, 0, 0.09) 0px 16px 8px, /* Ombre plus prononcée en bas et à droite */
+  rgba(0, 0, 0, 0.09) 0px 32px 16px; /* Ombre la plus prononcée en bas et à droite */
+}

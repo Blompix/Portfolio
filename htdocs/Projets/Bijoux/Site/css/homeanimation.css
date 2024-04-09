@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,600;1,700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --main-color: rgb(255, 170, 0);
+    --text-color: black;
+    --bg-color: white;
+    --icon-color: black;
+}
+
+
+/*--------------- Conteneur des produits ---------------*/
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.diapo{
+    position: relative;
+    overflow: hidden;
+}
+
+.elements{
+    display: flex;
+    
+}
+
+.element{
+    flex: 1 0 40%;
+    position: relative;
+    
+}
+
+.element > img{
+    width: 100%;
+    
+}
+
+.caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+}
+
+#nav-gauche, #nav-droite{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    cursor: pointer;
+}
+#nav-droite{
+    right: 0;
+}
+
+
+/*----------------------------------------------------*/
+.product-title{
+    
+    margin: auto;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+/*---les etoile des article-----*/
+.etoile{
+    margin: auto;
+    color: orange;
+}
+/*---le prix-----*/
+.price{
+    color: var(--text-color);
+    margin: 1rem auto 2rem auto;
+    text-align: center;
+    margin: auto;
+    font-weight: 500;
+}
+
+/*----------------Animation boutton----------------------*/
+.button-87 {
+    margin: 1rem auto 2rem auto;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+  
+.button-87:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+  
+.button-87:active {
+    transform: scale(0.95);
+}
+/*----------------------------------------------------*/
+
+/*---transition d'images quand la sourie passe-----*/
+
+.product-img:nth-child(2){
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: opacity ease 1s;
+    -webkit-transition: opacity ease 1s;
+    -moz-transition: opacity ease 1s;
+    -ms-transition: opacity ease 0.4s;
+}
+
+.product-box:hover img:nth-child(2){
+    opacity: 1;
+}

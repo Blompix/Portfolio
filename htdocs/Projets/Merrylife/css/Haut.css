@@ -1,0 +1,21 @@
+/* boutton qui remonte en haut */
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(60, 92, 156);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;    
+    font-size: 35px;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #ffffff;
+    color: rgb(60, 92, 156);
+}

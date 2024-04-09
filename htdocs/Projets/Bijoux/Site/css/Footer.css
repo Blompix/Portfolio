@@ -1,0 +1,125 @@
+/* Styles globaux de la page */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style pour l'ombre (shadow) */
+.shadow {
+    border: #F09819;
+}
+
+/* Style du pied de page */
+footer {
+    margin-top: 5rem;
+    margin-bottom: 0;
+    display: flex;
+}
+
+/* Styles pour les éléments du pied de page */
+.footerLeft {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.fMenuTitle {
+    font-size: 16px;
+}
+
+.fList {
+    padding: 0;
+    list-style: none;
+}
+
+.fListItem {
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.footerRight {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fInput {
+    padding: 5px;
+}
+
+/* Styles pour le bouton "Join!" */
+.fButton {
+    margin: 1rem auto 2rem auto;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+/* Styles pour le bouton au survol (hover) */
+.fButton:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styles pour le bouton lorsque cliqué (active) */
+.fButton:active {
+    transform: scale(0.95);
+}
+
+/* Styles pour les icônes dans le pied de page */
+.fIcons {
+    display: flex;
+}
+
+.fIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* Style pour le texte du copyright */
+.copyright {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+/* Styles pour les écrans de petite taille (max-width: 480px) */
+@media screen and (max-width:480px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerLeft {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .footerRight {
+        padding: 20px;
+        width: 90%;
+        align-items: center;
+        background-color: whitesmoke;
+    }
+}
